@@ -16,6 +16,11 @@ Read in files (data and column names)
 --> get mean data 
 --> write out dataset
 
+Code was written with two variables at the top of the code: vtesting and vinstall.libs.  
+If vtesting is set to TRUE then any debugging code such as head() or print() will be executed.  If set to FALSE then teh output to the screen will be less verbose.
+
+if vinstall.libs is set to true then packages and libes will be installed.  If it is set to FALSE then they will not.  This is helpful if you are running the code multiple times.
+
 ProjectFinealDataset.txt
 This is a text file that is the result of running run_analysis.R with the data set folder in the R working directory.
 
