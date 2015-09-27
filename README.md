@@ -6,30 +6,30 @@ This is an R script that does the following against the "Human Activity Recognit
 
 --> Read in files (data and column names)
 
---> add column names to data 
+--> Add column names to data 
 
 --> Merge data files  
 
 --> Convert data fraims to tables
 
---> set keys on tables 
+--> Set keys on tables 
 
 --> Union the tables 
 
---> remove data fraims that are now longer needed 
+--> Remove data fraims that are now longer needed 
 
---> create table containing only keys, STD and MEAN columns 
+--> Create table containing only keys, STD and MEAN columns 
 
---> tidy up col names by removing multiple periods in column names 
+--> Tidy up col names by removing multiple periods in column names 
 
---> get mean data 
+--> Get mean data 
 
---> write out dataset
+--> Write out dataset
 
 Code was written with two variables at the top of the code: vtesting and vinstall.libs.  
 If vtesting is set to TRUE then any debugging code such as head() or print() will be executed.  If set to FALSE then teh output to the screen will be less verbose.
 
-if vinstall.libs is set to true then packages and libes will be installed.  If it is set to FALSE then they will not.  This is helpful if you are running the code multiple times.
+If vinstall.libs is set to true then packages and libes will be installed.  If it is set to FALSE then they will not.  This is helpful if you are running the code multiple times.
 
 ProjectFinealDataset.txt
 This is a text file that is the result of running run_analysis.R with the data set folder in the R working directory.
